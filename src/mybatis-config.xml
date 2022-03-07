@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+        <!-- 延迟加载总开关 -->
+        <!--<setting name="lazyLoadingEnabled" value="true"/>-->
+        <!--禁止主动的加载 -->
+        <!--<setting name="aggressiveLazyLoading" value="false"/>-->
+        <!--开启全局二级缓存配置-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <!--配置类的别名-->
+    <typeAliases>
+        <package name="com.lijunjie.tmall.bean"></package>
+    </typeAliases>
+    <!--引入映射文件-->
+   
+</configuration>
