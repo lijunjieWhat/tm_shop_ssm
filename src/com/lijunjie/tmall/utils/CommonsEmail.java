@@ -14,9 +14,9 @@ public class CommonsEmail {
 		mail.setSslSmtpPort("465");
 		mail.setHostName("smtp.qq.com");
 		// 设置密码验证器
-		mail.setAuthentication("3183823136@qq.com", "kzqvqkhjbslydgdf");
+		mail.setAuthentication("@qq.com", "");
 		// 设置邮件发送者
-		mail.setFrom("3183823136@qq.com");
+		mail.setFrom("@qq.com");
 		// 设置邮件接收者
 		mail.addTo(strMail);
 		// 设置邮件编码
